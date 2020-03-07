@@ -1,0 +1,24 @@
+body{
+    background: url('image/2.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+.box-eksternal {
+    background: rgb(82, 70, 70);
+    padding: 5px;
+    margin: 5px;
+}
+
+img{
+    animation: anim 5s;
+}
+
+@keyframes anim{
+    from{
+        height: 0;
+        width: 0;
+    }
+    to{}
+}
+
